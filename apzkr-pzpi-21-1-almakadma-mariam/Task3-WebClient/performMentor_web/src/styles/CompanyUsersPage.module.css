@@ -1,0 +1,34 @@
+/* src/styles/CompanyUsersPage.module.css */
+
+.container {
+    display: flex;
+}
+
+.mainContent {
+    margin-left: 250px;
+    padding: 20px;
+    flex: 1;
+}
+
+.filterContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.createdUserMessage {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

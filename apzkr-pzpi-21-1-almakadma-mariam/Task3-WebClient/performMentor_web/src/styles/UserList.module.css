@@ -1,0 +1,61 @@
+/* src/styles/UserList.module.css */
+
+.userList {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.userList h2 {
+    margin-top: 0;
+}
+
+.userList ul {
+    list-style: none;
+    padding: 0;
+}
+
+.userList li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.userCard {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.deleteButton {
+    margin-left: 90%;
+    color: white;
+    background-color: #333;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+font-size: 15px;
+}
+
+.deleteButton:hover {
+    background-color: #575757;
+}
+
+.editableField {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px; /* Додаємо відступ між елементами */
+}
+
+.editableField input {
+    font-size: 1em;
+    padding: 0.2em;
+    margin-right: 0.5em;
+}
+
+.saveIcon {
+    cursor: pointer;
+    color: #4CAF50;
+}
+

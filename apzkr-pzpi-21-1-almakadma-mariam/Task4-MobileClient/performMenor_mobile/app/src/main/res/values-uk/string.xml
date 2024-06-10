@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PerformMentor</string>
+    <string name="login_success">Успішний вхід</string>
+    <string name="login_failed">Помилка входу</string>
+    <string name="error_occurred">Виникла помилка</string>
+    <string name="email_password_required">Введіть адресу електронної пошти та пароль</string>
+    <string name="email_hint">Електронна пошта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="login_button">Увійти</string>
+    <string name="user_id_not_found">Ідентифікатор користувача не знайдено в сеансі</string>
+    <string name="failed_to_load_rewards">Не вдалося завантажити винагороди</string>
+    <string name="reward_redeemed_successfully">Винагороду успішно отримано!</string>
+    <string name="failed_to_redeem_reward">Не вдалося отримати винагороду</string>
+    <string name="take_reward">Забрати винагороду</string>
+    <string name="was_taken">Нагороду забрали</string>
+    <string name="was_not_taken">Нагороду не забрали</string>
+    <string name="physical_reward">Фізична винагорода</string>
+    <string name="virtual_reward">Віртуальна винагорода</string>
+
+    <string name="home">Головна</string>
+    <string name="rewards">Нагорода</string>
+    <string name="work_hours">Години роботи</string>
+
+    <string name="work_started_successfully">Робота почалася успішно</string>
+    <string name="failed_to_start_work">Не вдалося розпочати роботу</string>
+    <string name="break_started_successfully">Перерва почалася успішно</string>
+    <string name="failed_to_start_break">Не вдалося розпочати перерву</string>
+    <string name="break_ended_successfully">Перерва завершилася успішно</string>
+    <string name="failed_to_end_break">Не вдалося завершити перерву</string>
+    <string name="work_ended_successfully">Робота завершилася успішно</string>
+    <string name="failed_to_end_work">Не вдалося завершити роботу</string>
+
+    <string name="start_work">Початок роботи</string>
+    <string name="end_work">Кінець роботи</string>
+    <string name="start_break">Початок перерви</string>
+    <string name="end_break">Кінець перерви</string>
+    <string name="failed_to_fetch_work_hours">Не вдалося отримати години роботи</string>
+    <string name="total_work_duration">Загальна тривалість робочого дня (хв)</string>
+    <string name="total_break_duration">Загальна тривалість перерви (хв)</string>
+    <string name="date_s">День</string>
+    <string name="logout">Вихід</string>
+
+</resources>

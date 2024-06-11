@@ -5,16 +5,4 @@ export interface Company {
     email: string;
     address: string;
     created_at: string;
-    subscription: Subscription;
-    status: Status;
-}
-
-export interface Subscription {
-    name: string;
-    description: string;
-}
-
-export interface Status {
-    name: string;
-    description: string;
 }

@@ -27,7 +27,6 @@ export const AppRouter: React.FC = () => {
                 <Route path="/task-status-report" element={<TaskStatusReportPage />} />
                 <Route path="/company-reward" element={<RewardsPage />} />
                 <Route path="/login-user" element={<UserLoginPage />} />
-
                 <Route path="/user-profile" element={<UserProfilePage />} />
                 <Route path="/manager-department" element={<UsersByDepartmentPage />} />
                 <Route path="/user-reward" element={<UserRewardsPage />} />

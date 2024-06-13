@@ -18,7 +18,6 @@ const initializeAssociations = () => {
     Task.belongsToMany(User, { through: TaskExecutor, foreignKey: 'task_id', as: 'executors' });
     User.belongsToMany(Task, { through: TaskExecutor, foreignKey: 'executor_id', as: 'assignedTasks' });
     TaskExecutor.belongsTo(User, { foreignKey: 'executor_id', as: 'executor' });
-
     User.belongsTo(Department, { foreignKey: 'department_id', as: 'department' });
     Department.hasMany(User, { foreignKey: 'department_id', as: 'user' });
     Department.belongsTo(Company, { foreignKey: 'company_id', as: 'company' });
